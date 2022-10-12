@@ -8,4 +8,5 @@ export interface Teacher {
 
 export interface ListAppProps {
   teachers: Teacher[];
+  onSelect: (teacher: Teacher) => void;
 }

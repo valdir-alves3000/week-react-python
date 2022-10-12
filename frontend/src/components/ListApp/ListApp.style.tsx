@@ -1,5 +1,10 @@
 import { styled } from "@mui/material";
 
+export const EmptyList = styled("h2")`
+  text-align: center;
+  padding: ${({ theme }) => theme.spacing(20, 0)};
+`;
+
 export const ListAppStyled = styled("ul")`
   width: 100%;
   max-width: 900px;
